@@ -1,0 +1,29 @@
+<nav class="nav">
+    <a href="{% url 'index' %}" class="nav__logo"> Movies Now <img src= 'static/css/cinema/img/peli.jpg' style="width:90px; height:25px"></a>
+    <ul class="nav__menu">
+        
+        <li class="nav__item">
+            <a href="{% url 'index' %}" class="nav__link"><span>Inicio</span></a>
+        </li>
+        <li class="nav__item">
+            <a href="{% url 'search' %}" class="nav__link"><span>Buscador</span></a>
+        </li>
+        <li class="nav__item">
+            <a href="{% url 'popular' %}" class="nav__link"><span>Populares</span></a>
+        </li>
+        <li class="nav__item">
+            <a href="{% url 'now' %}" class="nav__link"><span>Nuevas</span></a>
+        </li>
+        <li class="nav__item">
+            <a href="{% url 'indexc' %}" class="nav__link"><span>Cartelera</span></a>
+        </li>
+        <li class="nav__item">
+            <a href="{% url 'register' %}" class="nav__link"><span>Registrarse</span></a>
+        </li>
+    </ul>
+    <div class="burger" id="burger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+</nav>
